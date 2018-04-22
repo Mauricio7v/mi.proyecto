@@ -1,0 +1,245 @@
+
+  body{
+              background: #00FF7F;
+          }
+         
+        * {
+          margin:0px;
+          padding:0px;
+        }
+        
+           header nav {
+       
+	width:90%;
+	max-width:1000px;
+	margin:20px auto;
+	background:#990033;
+}
+ 
+.menu_bar {
+	display:none;
+}
+ 
+header nav ul {
+	overflow:hidden;
+	list-style:none;
+}
+ 
+header nav ul li {
+	float:left;
+}
+ 
+header nav ul li a {
+	color:#fff;
+	padding:20px;
+	display:block;
+	text-decoration:none;
+}
+ 
+header nav ul li span {
+	margin-right:10px;
+}
+ 
+header nav ul li a:hover {
+	background:#037E8C;
+}
+ 
+section {
+    padding: 6rem 0;
+}
+ 
+@media screen and (max-width:800px ) {
+	header nav {
+		width:80%;
+		height:100%;
+		left:-100%;
+		margin:0;
+		position: absolute;
+	}
+ 
+	header nav ul li {
+		display:block;
+		float:none;
+		border-bottom:1px solid rgba(255,255,255, .3);
+	}
+ 
+	.menu_bar {
+		display:block;
+		width:100%;
+		background:#ccc;
+	}
+ 
+	.menu_bar .bt-menu {
+		display:block;
+		padding:20px;
+		background:#990033;
+		color:#fff;
+		text-decoration:none;
+		font-weight: bold;
+		font-size:25px;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+ 
+	.menu_bar span {
+		float:right;
+		font-size:40px;
+	}
+}
+            
+        #Redes {
+          margin:auto;
+          width:2%;
+          font-family:Arial, Helvetica, sans-serif;
+            
+        }
+        
+        
+        ul, ol {
+          list-style:none;
+        }
+          .social li a {
+          background-color:#00FF7F;
+          color:#990033;
+          text-decoration:none;
+width: 30px;
+          padding:10px 15px;
+          display:block;
+        }
+        
+        .social  li a{
+          float:right;
+           
+ 
+            
+        }
+        
+      
+        
+        .social li a:hover {
+          background-color:#01DFD7;
+        }
+        
+        .social li ul {
+          display:none;
+          position:absolute;
+           
+          min-width:140px;
+            
+        }
+        
+        .social li:hover > ul {
+          display:block;
+        }
+        
+        .social li ul li {
+          position:relative;
+        }
+        
+        .social li ul li ul {
+          right:-140px;
+          top:0px;
+        }
+         
+
+        .nav li a {
+          background-color:#990033;
+          color:#fff;
+          text-decoration:none;
+
+          padding:10px 15px;
+          display:block;
+        }
+        
+        .nav  li a{
+          float:left;
+        }
+        
+      
+        
+        .nav li a:hover {
+          background-color:#BDBDBD;
+        }
+        
+        .nav li ul {
+          display:none;
+          position:absolute;
+          min-width:140px;
+        }
+        
+        .nav li:hover > ul {
+          display:block;
+        }
+        
+        .nav li ul li {
+          position:relative;
+        }
+        
+        .nav li ul li ul {
+          right:-140px;
+          top:0px;
+        }
+              
+   
+          
+        footer {
+          background-color: #990033;
+          position: absolute;
+          bottom: 0;
+            top: 140%;
+          width: 100%;
+          height: 5%;
+          color: white;
+        }
+      
+          div.lo{
+               
+               position:absolute;
+             top:0px; 
+   
+          
+          }
+          
+          .mapa{
+              position: absolute;
+              top:17.6%;
+           right: 9.5%;
+              width: 60%;
+              height: 70%
+                
+             
+          }
+.tabla1{
+    position: absolute;
+    top: 30.5%;
+    left: 16%;
+     
+    
+}
+.tabla2{
+    position: absolute;
+    top: 65.5%;
+    left: 16%;
+}
+.tabla3{
+     position: absolute;
+    top: 82%;
+    left: 16%;
+     width: 69%;
+  
+}
+.tabla4{
+      position: absolute;
+    top: 110%;
+    left: 16%;
+     width: 69%;
+}
+
+.c{
+    position: absolute;
+    top: 22%;
+       width: 69%;
+    left: 16%
+}
+ 

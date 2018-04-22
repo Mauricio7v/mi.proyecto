@@ -1,0 +1,266 @@
+  body{
+              background: #00FF7F;
+          }
+         
+        * {
+          margin:0px;
+          padding:0px;
+        }
+        
+           header nav {
+       
+	width:90%;
+	max-width:1000px;
+	margin:20px auto;
+	background:#990033;
+}
+ 
+.menu_bar {
+	display:none;
+}
+ 
+header nav ul {
+	overflow:hidden;
+	list-style:none;
+}
+ 
+header nav ul li {
+	float:left;
+}
+ 
+header nav ul li a {
+	color:#fff;
+	padding:20px;
+	display:block;
+	text-decoration:none;
+}
+ 
+header nav ul li span {
+	margin-right:10px;
+}
+ 
+header nav ul li a:hover {
+	background:#037E8C;
+}
+ 
+section {
+    padding: 6rem 0;
+}
+ 
+@media screen and (max-width:800px ) {
+	header nav {
+		width:80%;
+		height:100%;
+		left:-100%;
+		margin:0;
+		position: absolute;
+	}
+ 
+	header nav ul li {
+		display:block;
+		float:none;
+		border-bottom:1px solid rgba(255,255,255, .3);
+	}
+ 
+	.menu_bar {
+		display:block;
+		width:100%;
+		background:#ccc;
+	}
+ 
+	.menu_bar .bt-menu {
+		display:block;
+		padding:20px;
+		background:#990033;
+		color:#fff;
+		text-decoration:none;
+		font-weight: bold;
+		font-size:25px;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+ 
+	.menu_bar span {
+		float:right;
+		font-size:40px;
+	}
+}
+            
+        #Redes {
+          margin:auto;
+          width:2%;
+          font-family:Arial, Helvetica, sans-serif;
+            
+        }
+        
+        
+        ul, ol {
+          list-style:none;
+        }
+          .social li a {
+          background-color:#00FF7F;
+          color:#990033;
+          text-decoration:none;
+         width: 30px;
+          padding:10px 15px;
+          display:block;
+        }
+        
+        .social  li a{
+          float:right;
+        
+            
+        }
+        
+      
+        
+        .social li a:hover {
+          background-color:#01DFD7;
+            
+        }
+        
+        .social li ul {
+          display:none;
+          position:absolute;
+          min-width:140px;
+            
+        }
+        
+        .social li:hover > ul {
+          display:block;
+        }
+        
+        .social li ul li {
+          position:absolute;
+        }
+        
+        .social li ul li ul {
+          right:-140px;
+          top:0px;
+        }
+         
+
+        .nav li a {
+          background-color:#990033;
+          color:#fff;
+          text-decoration:none;
+
+          padding:10px 15px;
+          display:block;
+        }
+        
+        .nav  li a{
+          float:left;
+        }
+        
+      
+        
+        .nav li a:hover {
+          background-color:#BDBDBD;
+        }
+        
+        .nav li ul {
+          display:none;
+          position:absolute;
+          min-width:140px;
+        }
+        
+        .nav li:hover > ul {
+          display:block;
+        }
+        
+        .nav li ul li {
+          position:absolute;
+        }
+        
+        .nav li ul li ul {
+          right:-140px;
+          top:0px;
+        }
+              
+        
+          
+        footer {
+          background-color: #990033;
+          position: absolute;
+          bottom: 0;
+              top: 1300px;
+          width: 100%;
+          height: 40px;
+          color: white;
+        }
+          .slider {
+	width: 60%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 70%;
+}
+
+          
+          
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+    
+          .slider{
+              position:relative;
+            top:60px;
+            left:90px;
+          }
+
+        
+          
+          .texto{
+              position: absolute;
+              text-align: justify;
+              top:85%;
+              width: 50%;
+              left: 15%;
+          }
+          .servicios{
+               position: absolute;
+            
+              top:120%;
+              width: 43%;
+              left: 15%;
+          }
+.h2{
+    background-color: #fff;
+  font-family:Bodoni MT;
+}
+.h3{
+    background-color: #990033;
+  font-family:Bodoni MT;
+}
+.p{
+   
+     background-color: #000;
+     font-family:Bodoni MT;
+}

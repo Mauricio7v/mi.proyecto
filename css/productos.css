@@ -1,0 +1,230 @@
+  body{
+              background: #00FF7F;
+          }
+         
+        * {
+          margin:0px;
+          padding:0px;
+        }
+        
+           header nav {
+       
+	width:90%;
+	max-width:1000px;
+	margin:20px auto;
+	background:#990033;
+}
+ 
+.menu_bar {
+	display:none;
+}
+ 
+header nav ul {
+	overflow:hidden;
+	list-style:none;
+}
+ 
+header nav ul li {
+	float:left;
+}
+ 
+header nav ul li a {
+	color:#fff;
+	padding:20px;
+	display:block;
+	text-decoration:none;
+}
+ 
+header nav ul li span {
+	margin-right:10px;
+}
+ 
+header nav ul li a:hover {
+	background:#037E8C;
+}
+ 
+section {
+    padding: 6rem 0;
+}
+ 
+@media screen and (max-width:800px ) {
+	header nav {
+		width:80%;
+		height:100%;
+		left:-100%;
+		margin:0;
+		position: absolute;
+	}
+ 
+	header nav ul li {
+		display:block;
+		float:none;
+		border-bottom:1px solid rgba(255,255,255, .3);
+	}
+ 
+	.menu_bar {
+		display:block;
+		width:100%;
+		background:#ccc;
+	}
+ 
+	.menu_bar .bt-menu {
+		display:block;
+		padding:20px;
+		background:#990033;
+		color:#fff;
+		text-decoration:none;
+		font-weight: bold;
+		font-size:25px;
+		-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		box-sizing:border-box;
+	}
+ 
+	.menu_bar span {
+		float:right;
+		font-size:40px;
+	}
+}
+            
+        #Redes {
+          margin:auto;
+          width:2%;
+          font-family:Arial, Helvetica, sans-serif;
+            
+        }
+        
+        ul, ol {
+          list-style:none;
+        }
+          .social li a {
+          background-color:#00FF7F;
+          color:#990033;
+          text-decoration:none;
+width: 30px;
+          padding:10px 15px;
+          display:block;
+        }
+        
+        .social  li a{
+          float:right;
+           
+ 
+            
+        }
+        
+      
+        
+        .social li a:hover {
+          background-color:#01DFD7;
+        }
+        
+        .social li ul {
+          display:none;
+          position:absolute;
+          min-width:140px;
+            
+        }
+        
+        .social li:hover > ul {
+          display:block;
+        }
+        
+        .social li ul li {
+          position:relative;
+        }
+        
+        .social li ul li ul {
+          right:-140px;
+          top:0px;
+        }
+         
+
+      
+   
+          
+        footer {
+          background-color: #990033;
+          position: absolute;
+          bottom: 0;
+            top: 300%;
+          width: 100%;
+          height: 5%;
+          color: white;
+        }
+       .cuadro{
+              position: absolute;
+              top:30%;
+        left: 40%;
+               width: 25%;
+           text-align: center;
+          }
+         
+          .texto{
+              position: absolute;
+              text-align:justify;
+              top: 37%;
+              left: 26%;
+             text-align:center;
+              width: 50%;
+              
+          }
+          
+           
+          .foto1{
+              position: absolute;
+              top:75%;
+              left:16%;
+            
+          }
+          .foto2{
+              position: absolute;
+              top:107%;
+               left:16%;
+          }
+          .foto3{
+              position: absolute;
+              top:139%;
+               left:16%;
+          }
+          .foto4{
+              position: absolute;
+              top:171%;
+               left:16%;
+          }
+          .foto5{
+              position: absolute;
+              top:203%;
+               left:16%;
+          }
+              .foto6{
+              position: absolute;
+              top:75%;
+              right:16%;
+          }
+          .foto7{
+              position: absolute;
+              top:107%;
+              right:16%;
+          }
+          .foto8{
+              position: absolute;
+              top:139%;
+              right:16%;
+          }
+          .foto9{
+              position: absolute;
+              top:171%;
+              right:16%;
+          }
+          .foto10{
+              position: absolute;
+              top:203%;
+              right:16%;
+          }
+   
+        .foto11{
+              position: absolute;
+              top:230%;
+              right:18%;
+          }
